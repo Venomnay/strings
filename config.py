@@ -26,7 +26,7 @@ LOGGER_ID = int(getenv("OWNER_ID","1872738364"))
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6326221634))
 
-FAILED = "https://telegra.ph/file/7028c431fea5ac6e48398.jpg"
+FAILED = "https://github.com/Venomnay/strings"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
