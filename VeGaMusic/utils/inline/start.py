@@ -24,18 +24,18 @@ from VeGaMusic import app
 def start_panel(_):
     buttons = [
         [
-            InlineKeyboardButton(text="المطور", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="مطور السورس", user_id=config.OWNER_ID),
           
         ],
          [InlineKeyboardButton(text=_["S_B_4"], callback_data="zzzback")],
         [
             InlineKeyboardButton(text="CHANNEL", url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="GROUP", url=f"https://t.me/GROUPVEGA"),
+            InlineKeyboardButton(text="GROUP", url=f"https://t.me/VV_6ov"),
         ],
         [
          
             InlineKeyboardButton(
-                text="⭓ADD✘ME ♪",
+                text="اضف البوت الي مجموعتك✘",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
@@ -46,18 +46,18 @@ def start_panel(_):
 def private_panel(_):
     buttons = [
         [
-            InlineKeyboardButton(text="المطور", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="مطور السورس", user_id=config.OWNER_ID),
             
         ],
          [InlineKeyboardButton(text=_["S_B_4"], callback_data="zzzback")],
         [
             InlineKeyboardButton(text="CHANNEL", url=config.SUPPORT_CHANNEL),
-            InlineKeyboardButton(text="GROUP", url=f"https://t.me/GROUPVEGA"),
+            InlineKeyboardButton(text="GROUP", url=f"https://t.me/VV_6ov"),
         ],
         [
          
             InlineKeyboardButton(
-                text="⭓ADD✘ME ♪",
+                text="اضف البوت الي مجموعتك✘",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
